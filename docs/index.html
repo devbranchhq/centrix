@@ -430,88 +430,77 @@
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
-    <!-- Hero Section -->
-    <div class="position-relative">
-      <!-- Slick Carousel -->
-      <div class="js-slick-carousel u-slick"
-           data-fade="true"
-           data-autoplay="true"
-           data-speed="5000"
-           data-infinite="true">
-        <div class="js-slide">
-          <div class="bg-img-hero min-height-620" style="background-image: url(https://htmlstream.com/preview/front-v2.9.2/assets/img/1920x800/img18.jpg);"></div>
+<!-- Hero Section -->
+<div id="SVGHero" class="svg-preloader position-relative bg-white overflow-hidden">
+  <div class="container position-relative z-index-2 space-top-2 space-bottom-3 space-top-md-4">
+    <div class="row align-items-lg-center">
+      <div class="col-lg-5 mb-11 mb-lg-0">
+        <!-- Info -->
+        <div class="mb-6">
+          <h1 class="text-white font-weight-semi-bold mb-3">
+            The
+            <span class="text-indigo">
+              <strong class="u-text-animation u-text-animation--typing"></strong>
+            </span>
+            <br>
+            pro account for entrepreneurs.
+          </h1>
+          <p class="text-white-70">Much more than a bank, Front is the ideal, fastest and most convenient financial and administrative co-driver to work with peace of mind.</p>
         </div>
-        <div class="js-slide">
-          <div class="bg-img-hero min-height-620" style="background-image: url(https://htmlstream.com/preview/front-v2.9.2/assets/img/1920x800/img17.jpg);"></div>
-        </div>
+
+        <a class="btn btn-white btn-wide btn-pill text-primary shadow-soft transition-3d-hover mb-2 mb-sm-0 mr-4" href="#">Contact Sales</a>
+        <a class="btn btn-indigo btn-wide btn-pill transition-3d-hover mb-2 mb-sm-0" href="#">Get Started</a>
+        <!-- End Info -->
       </div>
-      <!-- End Slick Carousel -->
 
-      <div class="container position-absolute right-0 bottom-0 left-0 space-top-5 space-bottom-2">
-        <!-- Info Link -->
-        <a class="d-sm-inline-flex align-items-center bg-primary text-white shadow rounded-pill p-2 pr-3 mb-3" href="#">
-          <span class="btn btn-xs btn-soft-white btn-pill font-weight-semi-bold mr-3">Start Now</span>
-          <span class="d-block d-sm-inline-block">
-            Find the job that fits your life faster with our advanced tools.
-          </span>
-        </a>
-        <!-- End Info Link -->
+      <div class="col-lg-7">
+        <div class="position-relative">
+          <!-- SVG Laptop Mockup -->
+          <figure class="ie-devices-v4-laptop mb-3 mb-sm-0">
+            <img class="js-svg-injector" src="https://htmlstream.com/preview/front-v2.9.2/assets/svg/components/laptop.svg" alt="Image Description"
+                 data-img-paths='[
+                   {"targetId": "#SVGlaptopImg1", "newPath": "https://htmlstream.com/preview/front-v2.9.2/assets/img/1618x1010/img3.jpg"}
+                 ]'
+                 data-parent="#SVGHero">
+          </figure>
+          <!-- SVG Laptop Mockup -->
 
-        <div class="card border-0">
-          <div class="card-body p-7">
-            <!-- Search Jobs Form -->
-            <form class="js-validate">
-              <div class="row">
-                <div class="col-lg-5 mb-4 mb-lg-0">
-                  <!-- Input -->
-                  <label class="d-block">
-                    <span class="h4 d-block text-dark font-weight-semi-bold mb-0">what</span>
-                    <small class="d-block text-secondary">job title, keywords, or company</small>
-                  </label>
-                  <div class="js-focus-state">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Keyword or title" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                      <div class="input-group-append">
-                        <span class="input-group-text">
-                          <span class="fas fa-search" id="keywordInputAddon"></span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Input -->
+          <!-- Card Info -->
+          <div class="position-sm-absolute bottom-0 right-0 max-width-40 ml-auto mb-sm-n5">
+            <div class="card border-0 bg-primary shadow-primary-lg rounded p-5">
+              <h2 class="h5 text-white font-weight-semi-bold mb-3">Integrate<br>quickly</h2>
+
+              <p class="text-info">Front lets you spend your development time on product improvements.</p>
+
+              <!-- Avatar -->
+              <div class="media align-items-center">
+                <div class="u-sm-avatar u-sm-avatar--bordered rounded-circle mr-2">
+                  <img class="img-fluid rounded-circle" src="https://htmlstream.com/preview/front-v2.9.2/assets/img/32x32/img6.jpg" alt="Image Description">
                 </div>
-
-                <div class="col-lg-5 mb-4 mb-lg-0">
-                  <!-- Input -->
-                  <label class="d-block">
-                    <span class="h4 d-block text-dark font-weight-semi-bold mb-0">where</span>
-                    <small class="d-block text-secondary">city, state, or zip code</small>
-                  </label>
-                  <div class="js-focus-state">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="City, state, or zip" aria-label="City, state, or zip" aria-describedby="locationInputAddon">
-                      <div class="input-group-append">
-                        <span class="input-group-text">
-                          <span class="fas fa-map-marker-alt" id="locationInputAddon"></span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Input -->
-                </div>
-
-                <div class="col-lg-2 align-self-lg-end">
-                  <button type="submit" class="btn btn-block btn-primary transition-3d-hover">Find Jobs</button>
+                <div class="media-body">
+                  <h3 class="font-size-1 text-white font-weight-medium mb-0">Raphael Olston</h3>
+                  <small class="d-block text-light font-weight-light">Business</small>
                 </div>
               </div>
-              <!-- End Checkbox -->
-            </form>
-            <!-- End Search Jobs Form -->
+              <!-- End Avatar -->
+            </div>
           </div>
+          <!-- Enc Card Info -->
         </div>
       </div>
     </div>
-    <!-- End Hero Section -->
+  </div>
+
+  <!-- SVG Background Shape -->
+  <div class="gradient-overlay-half-primary-v3 svg-divider-polygon position-absolute top-0 right-0 bottom-0 left-0">
+    <figure class="ie-circles-hero">
+      <img class="js-svg-injector d-none d-lg-block" src="https://htmlstream.com/preview/front-v2.9.2/assets/svg/components/circles.svg" alt="Image Description"
+           data-parent="#SVGHero">
+    </figure>
+  </div>
+  <!-- End SVG Background Shape -->
+</div>
+<!-- End Hero Section -->
 
     <!-- Get Started Section -->
     <div class="container space-2 space-md-3">
